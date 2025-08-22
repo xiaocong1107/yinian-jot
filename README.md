@@ -1,7 +1,7 @@
 # 一念 (Priospace)
 
 <div align="center">
-  <img src="./public/logo.png" alt="一念 Logo" width="120" height="120">
+  <img src="https://app.bornforai.cn/static/logo/logo.jpeg" alt="一念 Logo" width="120" height="120">
   
   **万事始于一念之间，快速记下每一个闪现的念头，将其演化成完整的现实计划**
   
@@ -82,131 +82,6 @@
 - **用户认证**: JWT Token认证
 - **数据同步**: 多设备数据同步
 
-## 🚀 快速开始
-
-### 环境要求
-- Node.js >= 18.0.0
-- npm >= 8.0.0 或 yarn >= 1.22.0
-- Rust >= 1.70.0 (桌面应用开发)
-
-### 安装依赖
-```bash
-# 克隆项目
-git clone https://github.com/your-username/一念.git
-cd 一念
-
-# 安装依赖
-npm install
-# 或
-yarn install
-```
-
-### 开发模式
-```bash
-# 启动Web开发服务器
-npm run dev
-# 或
-yarn dev
-
-# 启动Tauri桌面应用开发
-npm run tauri dev
-```
-
-### 构建生产版本
-```bash
-# 构建Web应用
-npm run build
-# 或
-yarn build
-
-# 构建桌面应用
-npm run tauri build
-```
-
-### 启动生产服务器
-```bash
-npm start
-# 或
-yarn start
-```
-
-## 📁 项目结构
-
-```
-一念/
-├── app/                     # Next.js App Router
-│   ├── api/                 # API路由
-│   │   ├── chat/           # AI对话接口
-│   │   └── reminder/       # 提醒相关接口
-│   ├── globals.css         # 全局样式
-│   ├── layout.js           # 根布局
-│   └── page.js             # 主页面
-├── components/              # React组件
-│   ├── chat/               # 聊天相关组件
-│   ├── summaries/          # 总结报告组件
-│   ├── ui/                 # 基础UI组件
-│   ├── yinian-modal.js     # 一念捕捉模态框
-│   ├── task-list.js        # 任务列表组件
-│   ├── habit-tracker.js    # 习惯跟踪器
-│   ├── reminder-panel.js   # 提醒面板
-│   └── timer-modal.js      # 番茄钟计时器
-├── services/               # 服务层
-│   ├── api.js              # API接口封装
-│   └── dataManager.js      # 数据管理器
-├── src-tauri/              # Tauri桌面应用
-│   ├── src/                # Rust源码
-│   ├── icons/              # 应用图标
-│   └── tauri.conf.json     # Tauri配置
-├── public/                 # 静态资源
-├── lib/                    # 工具库
-├── utils/                  # 工具函数
-├── i18n/                   # 国际化配置
-└── translations/           # 翻译文件
-```
-
-## 🎨 核心组件
-
-### 主要功能组件
-- **YinianModal**: 一念捕捉模态框，AI驱动的灵感记录
-- **TaskList**: 智能任务列表，支持拖拽排序和实时编辑
-- **HabitTracker**: 习惯跟踪器，可视化习惯养成进度
-- **ChatInterface**: AI对话界面，与"念念"助手交互
-- **ReminderPanel**: 智能提醒面板，个性化通知管理
-- **TimerModal**: 番茄钟计时器，专注时间管理
-- **SummaryNavigation**: 数据总结导航，周报月报生成
-
-### UI组件系统
-- **Button**: 多变体按钮组件
-- **Card**: 卡片容器组件
-- **Input/Textarea**: 表单输入组件
-- **Select**: 下拉选择组件
-- **Modal**: 模态框组件系统
-
-## 🔌 API接口
-
-### 任务管理
-- `GET /api/tasks` - 获取任务列表
-- `POST /api/tasks` - 创建新任务
-- `PUT /api/tasks/:id` - 更新任务
-- `DELETE /api/tasks/:id` - 删除任务
-
-### 习惯跟踪
-- `GET /api/habits` - 获取习惯列表
-- `POST /api/habits` - 创建新习惯
-- `PUT /api/habits/:id/status` - 更新习惯状态
-
-### AI服务
-- `POST /api/chat` - AI对话接口
-- `POST /api/generate-tasks` - AI任务生成
-
-### 用户系统
-- `POST /api/auth/login` - 用户登录
-- `GET /api/user/info` - 获取用户信息
-- `GET /api/user/settings` - 获取用户设置
-
-### 提醒系统
-- `GET /api/reminder/messages` - 获取提醒消息
-- `POST /api/reminder/settings` - 保存提醒设置
 
 ## 🌟 项目特色
 
@@ -260,12 +135,6 @@ yarn start
 
 欢迎提交Issue和Pull Request来改进这个项目！
 
-### 开发流程
-1. Fork本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启Pull Request
 
 ### 代码规范
 - 遵循ESLint配置
