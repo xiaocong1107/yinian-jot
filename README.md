@@ -1,20 +1,50 @@
-# 一念 (Priospace)
+# 一念 (jot)
 
 <div align="center">
   <img src="https://app.bornforai.cn/static/logo/logo.jpeg" alt="一念 Logo" width="120" height="120">
-  
-  **万事始于一念之间，快速记下每一个闪现的念头，将其演化成完整的现实计划**
-  
-  [![Next.js](https://img.shields.io/badge/Next.js-15.4.2-black?style=flat-square&logo=next.js)](https://nextjs.org/)
-  [![React](https://img.shields.io/badge/React-19.1.0-blue?style=flat-square&logo=react)](https://reactjs.org/)
-  [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.17-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
-  [![Tauri](https://img.shields.io/badge/Tauri-2.7.1-FFC131?style=flat-square&logo=tauri)](https://tauri.app/)
-  [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
+
+**万事始于一念之间，快速记下每一个闪现的念头，将其演化成完整的现实计划**
+
+[![Next.js](https://img.shields.io/badge/Next.js-15.4.2-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.1.0-blue?style=flat-square&logo=react)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.17-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![Tauri](https://img.shields.io/badge/Tauri-2.7.1-FFC131?style=flat-square&logo=tauri)](https://tauri.app/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 </div>
 
 ## 📖 项目简介
 
-一念是一款专注于将灵感转化为行动的个人效率工具。通过AI技术，帮助用户快速捕捉灵感、分解任务、规划路径、跟踪执行并提供智能提醒。项目由一位全栈独立开发者完整开发，集成了现代化的前端技术栈和智能化的用户体验设计。
+一念 (Jot) 是一款深度融合AI技术的个人效率与灵感孵化平台，它致力于精准解决从创意萌发到目标实现的“最后一公里”难题。我们深知，在信息过载的时代，每一个伟大的项目都始于一个稍纵即逝的念头。然而，从一个模糊的想法到一套清晰、可执行的计划，往往是一道难以逾越的鸿沟，也是导致拖延与行动力瘫痪的根源。
+“一念”正是为此而生。它不再是一个被动的记录工具，而是您主动的战略伙伴。其核心AI引擎能将您宏大、抽象的目标瞬间分解为具体的、有逻辑的行动步骤，为您铺就一条从0到1的清晰路径。我们的使命是消除灵感与现实之间的摩擦，赋予每一个想法以生命力，助您将脑海中的万千思绪，真正演化为可触摸、可衡量的成果。
+
+
+### 🌟 项目亮点
+
+- **AI驱动的任务管理**: 利用先进的人工智能技术，自动将复杂想法分解为可执行的小步骤
+- **全平台支持**: 同时提供Web应用和桌面应用，支持Windows、macOS和Linux系统
+- **无缝同步**: 多设备数据同步，随时随地访问您的任务和进度
+- **个性化体验**: 深色模式、自定义主题和智能提醒，打造专属的工作环境
+- **隐私优先**: 本地数据存储优先，确保用户信息安全
+
+### 🎯 适用场景
+
+- **创意工作者**: 快速捕捉灵感，将创意转化为具体项目
+- **学生**: 管理学习任务，制定学习计划，跟踪学习进度
+- **自由职业者**: 分解复杂项目，合理安排时间，提高工作效率
+- **企业管理者**: 制定团队目标，分解任务，跟踪项目执行情况
+- **个人成长**: 建立良好习惯，实现个人目标
+
+## 💎 应用价值
+
+在信息过载和注意力分散的现代生活中，一念致力于解决个人效率管理的核心痛点：
+
+- **灵感易逝**: 抓住稍纵即逝的创意火花，确保有价值的想法不被遗忘
+- **任务复杂**: 将庞大的目标自动分解为可执行的小步骤，降低行动门槛
+- **执行困难**: 提供清晰的行动路径和进度追踪，增强完成任务的信心
+- **效率低下**: 通过智能提醒和时间管理，最大化个人工作效率
+- **习惯养成**: 结合科学方法和AI技术，帮助用户建立并维持良好习惯
+
+无论你是创业者、学生、自由职业者还是企业管理者，一念都能成为你实现目标的得力助手。
 
 ## ✨ 核心功能
 
@@ -156,3 +186,32 @@
   <p>如果这个项目对你有帮助，请给它一个 ⭐️</p>
   <p>让我们一起将每一个念头转化为现实！</p>
 </div>
+
+## 📱 联系我们
+
+- **官网**: [https://app.bornforai.cn/](https://app.bornforai.cn/)
+- **微信小程序**: 搜"一念jot"
+- **邮箱**: xiaocong1107@163.com
+- **微信号**: shanxiazhicong
+
+## 🔄 项目更新
+
+### 最新版本
+- **v1.0.0**: 初始版本发布
+
+## 🤝 我们需要帮助
+
+我们正在寻找志同道合的伙伴加入我们的团队，共同推动项目的发展：
+
+### 人才招募
+- **前端开发者**: 熟悉React/Next.js，有桌面应用开发经验者优先
+- **后端开发者**: 熟悉Node.js，有AI集成经验者优先
+- **UI/UX设计师**: 有产品设计经验，能独立完成界面设计
+- **产品经理**: 有个人效率工具或AI产品经验者优先
+
+### 商务合作
+- **技术合作**: 欢迎技术团队进行深度技术合作
+- **渠道合作**: 欢迎各种推广渠道合作
+- **投资合作**: 欢迎各类投资机构洽谈
+
+如有意向，请通过上述联系方式与我们取得联系。
